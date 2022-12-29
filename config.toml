@@ -1,0 +1,18 @@
+theme = "catppuccin_frappe"
+
+[editor]
+true-color = true
+bufferline = "always"
+
+[editor.statusline]
+left = ["mode", "file-name", "spinner"]
+right = ["diagnostics", "position", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
